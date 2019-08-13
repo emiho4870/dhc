@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!--head:script:수정금지-->
+      <head>
+        <meta charset="utf-8">
+        <meta name="description" content="contact form example">
+        <title>portfolio</title>
+            <!--fullpage:slickslide-->
+          <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!--제이쿼리충돌:페이지:슬라이드-->
+          <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+            <!--fullpage:slickslide-->
+            <!--fullpage:animate-->
+            <link rel="stylesheet" href="css/fullpage.css">
+            <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+            <script src="js/fullpage.js"></script>
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script type="text/javascript">
+            jQuery(document).ready(function(){
+                $('#fullpage').fullpage({
+            });
+            $('.visual').slick({
+            });
+            });
+            </script>
+            <!--메뉴클릭페이지이동-->
+            <script>
+            function bt(seq){
+            var offset = $(".section" + seq).offset();
+            $('html, body').animate({scrollTop : offset.top}, 400);
+            }   
+            </script>
+            <!--메뉴클릭페이지이동-->
+            <!--fullpage:animate-->
+            <!--favicon-->
+            <link rel="shortcut icon" href="images/favicon.ico">
+            <!--favicon-->
+            <!--기본:-->
+            <link rel="stylesheet" type="text/css" href="css/index.css">
+            <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+            <!--기본:-->
+          <!--wow:animate-->
+            <link rel="stylesheet" href="css/animate.css">
+             <script src="js/wow.min.js"></script>
+             <script>
+             new WOW().init();
+             </script>
+            <!--wow:animate-->
+            <!--ie9-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="js/html5shiv.js"></script> 
+            <!--ie9-->
+    </head>
+    <!--head:script:수정금지-->
+    <body> 
+            <div class="loader"></div>
+            <div class="container" style="display:block;">
+      <!--전체시작-->
+           <div id="fullpage">
+      <!--헤더시작-->
+           <div id="header">
+                <div class="section1 header">
+                   <img src="images/1.png" alt="background1" class="background1 wow fadeInLeft">
+                   <img src="images/1.png" alt="background2" class="background2 wow fadeInLeft">
+                   <div class="logo">
+                       <img src="images/toplogo.png" alt="toplogo" class="toplogo wow bounceInRight">
+                   </div>
+               </div>
+           </div>
+      <!--헤더끝-->
+       <!--컨테이너시작-->
+       <!--컨테이너:home시작-->
+                <div class="section home">
+                <div class="gnb"><!--section안 호버불가-->
+                   <button onclick="bt('1')">
+                          <a href="#">
+                           HOME
+                           <span></span>
+                       </a>
+                    </button>
+                  
+                   <button onclick="bt('2')">
+                          <a href="#">
+                           ABOUT
+                           <span></span>
+                       </a>
+                    </button>
+                
+                   <button onclick="bt('3')">
+                          <a href="#">
+                           PORTFOLIO
+                           <span></span>
+                       </a>
+                    </button>
+                   <button onclick="bt('4')">
+                          <a href="#">
+                           ETC
+                           <span></span>
+                       </a>
+                    </button>
+                   <button onclick="bt('5')">
+                          <a href="#">
+                           CONTACT
+                           <span></span>
+                       </a>
+                    </button> 
+                    <!--
+                    <b id="bt5">
+                       <a href="#">
+                           CONTACT
+                       </a>
+                       <span></span>
+                   </b>
+                   -->
+               </div>
+                   <!--메뉴:페이지연결-->
+                    <div class="mainConTitle wow bounceIn">
+                        <p class="mainConTitleLogo">
+                            FROM J
+                        </p>
+                        <ul>
+                            <li>
+                                portfolio
+                                <span></span>
+                            </li>
+                            <li>
+                                2019
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+       <!--컨테이너:home끝-->
+       <!--컨테이너:about시작-->
+                 <div class="section2 about">
+                   <img src="images/3.png" alt="background3" class="background3 wow fadeInLeft">
+                   <img src="images/4.png" alt="background4" class="background4 wow fadeInLeft">
+                    <div class="aboutCon inner">
+                           <!--공통타이틀박스-->
+                            <div class="ConsTitle">
+                                <p>
+                                    <span>F</span>irst : introduce
+                                    <span class="pinkTitleText">    
+                                    </span>
+                                </p>
+                            </div>
+                           <!--공통타이틀박스-->
+                            <!--슬라이드박스-->
+                            <section class="aboutSlide">
+                                <p>
+                                    About me
+                                </p>
+                                <div class="visualLogo"><img src="images/1.png" alt="footerlogo" class="footerlogo_1"><img src="images/3.png" alt="footerlogo" class="footerlogo_2"></div>
+                                <div class="visual wow pulse">
+                                    <h5>표현되는것과 표현하는것에 대한 관심</h5>
+                                    <span>시각적이고 청각적인 매체를 좋아해서 광고분야을 공부했었습니다.</span>
+                                    <span>기획과 홍보에 대한 공부도 좋았지만 어릴적 꿈인 화가에 대한</span>
+                                    <span>꿈과 같이 이미지화 하는 것에 목말라 있엇던것 같습니다.</span>
+                                    <span>우연한 기회에 포토샵과 일러스트를 배우게 되었고, 단순한 배움에</span>
+                                    <span>그치지 않고 앞으로 더욱 더 발전 하고 싶은 마음에 웹디자인을</span>
+                                    <span>공부하기로 하였고 이렇게 포트폴리오를 만들어 보았습니다.</span>
+                                    <span>더욱 더 발전하며 다양한 색감과 느낌을 표현하는</span>
+                                    <span>웹디자이너가 되고싶습니다. </span>
+                                    <span>감사합니다.</span>
+                                    <!--동그라미이미지회전-->
+                                
+                                </div>
+                        </section>
+                            <!--슬라이드박스-->
+                            <!--효과:슬릭슬라이드배치:페이지메뉴연결-->
+                    </div>
+                 </div>
+       <!--컨테이너:about시작-->
+       <!--컨테이너:portfolio시작-->
+                 <div class="section3 portfolio">
+                      <div class="pCons inner">
+                         <!--포트폴리오설명박스1-->
+                          <ul class="ConsSub cf">
+                                   <li class="ConsSubBox">
+                                       <img src="images/TSmockup.png" alt="ts" class="ts wow bounceInLeft">
+                                       <!--포트폴리오이미지-->
+                                  </li>
+                                   <li class="ConsSubText">
+                                           <!--공통타이틀박스-->
+                                               <div class="ConsTitle">
+                                                    <p><span>r</span>edesign
+                                                        <span class="pinkTitleText2">
+                                                        </span>
+                                                    </p>
+                                              </div>
+                                       <!--공통타이틀박스-->
+                                               <div class="ConsTitleText">
+                                                   <span>: web design</span>  
+                                                   <p>{ PHOTOSHOP, HTML5,  CSS3 }</p><br>
+                                                       <span># color <span class="colorBtn btn1"></span> <span class="colorBtn btn2"></span> <span class="colorBtn btn3"></span></span><br>
+                                                       <span># fonts <span>'noto-sans'</span></span><br>
+                                                       <p class="lastTitle"># concept</p>
+                                                   <p class="ConsText">
+                                                    회사홍보용 페이지제작을 목표로 하였고,<br>
+                                                    기존 웹사이트의  복잡한 레이아웃을 <br>
+                                                    간결화시키고, 페이지마다 메인슬라이드<br>
+                                                    영역에 회사이미지에 어울리는 이미지와,<br>
+                                                    슬로건을 이용하여 회사이미지를<br>
+                                                    표현하였고 페이지 내용배치를 기획함.</p>
+                                                    <div class="moreBtn wow shake moreBtn1">
+                                                        <a href="#">
+                                                            more
+                                                            <img src="images/pluspink11px.png" alt="plus" >
+                                                            <img src="images/pluspink11pxhover.png" alt="plushover" class="plusHover">
+                                                        </a>
+                                                    </div>
+                                                      <img src="images/6.png" alt="background5" class="background5 wow bounceInRight">
+                                           </div>
+                                </li>
+                            </ul>
+                          </div>
+    
+                      </div>
+                         <!--포트폴리오설명박스1-->
+                          
+                             <!--포트폴리오설명박스2-->
+                      <div class="section portfolio">
+                                  <img src="images/4.png" alt="background6" class="background6 fadeInLeft">
+                                  <img src="images/4.png" alt="background7" class="background7 wow bounceInRight">
+                          <ul class="ConsSub cf inner">
+                                   <li class="ConsSubBox">
+                                       <img src="images/DHCmockup.png" alt="dhc" class="dhc wow bounceInLeft">
+                                       <!--포트폴리오이미지-->
+                                  </li>
+                                   <li class="ConsSubText">
+                                           <!--공통타이틀박스-->
+                                               <div class="ConsTitle">
+                                                    <p><span>r</span>edesign
+                                                        <span class="pinkTitleText2">
+                                                        </span>
+                                                    </p>
+                                              </div>
+                                       <!--공통타이틀박스-->
+                                               <div class="ConsTitleText">
+                                               <span>: web design</span>  
+                                               <p>{ PHOTOSHOP, HTML5,  CSS3 }</p><br>
+                                                   <span># color <span class="colorBtn btn4"></span> <span class="colorBtn btn5"></span> <span class="colorBtn btn6"></span></span><br>
+                                                   <span># fonts <span>'noto-sans'</span></span><br>
+                                                   <p class="lastTitle"># concept</p>
+                                               <p class="ConsText">
+                                                기존 웹디자인에서 메인 슬라이드 이미지변경을<br>
+                                                하여 슬라이드 효과를 넣었고,<br>
+                                                내용 레이아웃과 색감을 다르게 넣어<br>
+                                                평소 브랜드에서 느껴온 분위기<br>
+                                                를 표현하고 디자인해보았고,<br>
+                                                메인페이지와 서브페이지 로그인페이지를<br>
+                                                조금 다른느낌을 주려 디자인 해보았습니다.</p>
+                                                <div class="moreBtn wow shake moreBtn2"><a href="#">more <img src="images/pluspink11px.png" alt="plus" >
+                                                <img src="images/pluspink11pxhover.png" alt="plushover" class="plusHover">
+                                                </a>
+                                                </div>
+                                           </div>
+                                </li>
+                            </ul>
+                          </div>
+                         <!--포트폴리오설명박스2-->
+                                 <!--포트폴리오설명박스3-->
+                      <div class="section portfolio">
+                          <ul class="ConsSub cf inner">
+                                   <li class="ConsSubBox">
+                                       <img src="images/hanhwamockup.png" alt="hanhwa" class="hanhwa wow bounceInRight ">
+                                       <!--포트폴리오이미지-->
+                                  </li>
+                                   <li class="ConsSubText">
+                                           <!--공통타이틀박스-->
+                                               <div class="ConsTitle">
+                                                    <p><span>r</span>edesign
+                                                        <span class="pinkTitleText2">
+                                                        </span>
+                                                    </p>
+                                              </div>
+                                       <!--공통타이틀박스-->
+                                               <div class="ConsTitleText">
+                                               <span>: web &amp; mobile design</span>  
+                                               <p>{ PHOTOSHOP, HTML5,  CSS3 }</p><br>
+                                                   <span># color <span class="colorBtn btn7"></span> <span class="colorBtn btn8"></span> <span class="colorBtn btn9"></span></span><br>
+                                                   <span># fonts <span>'noto-sans'</span></span><br>
+                                                   <p class="lastTitle"># concept</p>
+                                               <p class="ConsText">
+                                                '한화 아쿠아플래닛63'을 홍보하는<br>
+                                                페이지를 만들어보고자<br>
+                                                풀페이지 레이아웃,반응형디자인을<br>
+                                                시도해보았고<br>
+                                                레이아웃을 간결하게<br>
+                                                중앙배치위주로 디자인하고,<br>
+                                                한화기업의 이미지컬러를 주 컬러로<br>
+                                                사용해 보았습니다.</p>
+                                                <div class="moreBtn wow shake"><a href="#">more <img src="images/pluspink11px.png" alt="plus" >
+                                                <img src="images/pluspink11pxhover.png" alt="plushover" class="plusHover">
+                                                </a>
+                                                 </div>
+                                                  <div class="moreBtnMobile wow shake moreBtn3"><a href="#">mobile <img src="images/pluspink11px.png" alt="plus" >
+                                                <img src="images/pluspink11pxhover.png" alt="plushover" class="plusHover">
+                                                  </a>
+                                                </div>
+                                           </div>
+                                </li>
+                            </ul>
+                          </div>
+                         <!--포트폴리오설명박스3-->
+                                 <!--포트폴리오설명박스4-->
+                          <div class="section portfolio">
+                          <ul class="ConsSub cf inner">
+                                   <li class="ConsSubBox">
+                                       <img src="images/brunchmockup.png" alt="brunch" class="brunch wow bounceInLeft">
+                                       <!--포트폴리오이미지-->
+                                  </li>
+                                   <li class="ConsSubText">
+                                           <!--공통타이틀박스-->
+                                               <div class="ConsTitle">
+                                                    <p><span>r</span>edesign
+                                                        <span class="pinkTitleText2">
+                                                        </span>
+                                                    </p>
+                                              </div>
+                                       <!--공통타이틀박스-->
+                                               <div class="ConsTitleText">
+                                               <span>: mobile design</span>  
+                                               <p>{ PHOTOSHOP, HTML5,  CSS3 }</p><br>
+                                                   <span># color <span class="colorBtn btn10"></span> <span class="colorBtn btn11"></span> <span class="colorBtn btn12"></span></span><br>
+                                                   <span># fonts <span>'noto-sans'</span></span><br>
+                                                   <p class="lastTitle"># concept</p>
+                                               <p class="ConsText">
+                                                심플하고 정갈한 느낌의 기존<br>
+                                                웹페이지를 저만의 느낌으로<br>
+                                                디자인해보고자,<br>
+                                                'http://brunch.co.kr'웹을<br>
+                                                모바일형식으로 리뉴얼해보았습니다.<br>
+                                                기존웹의 포인트색상인 민트색상을<br>
+                                                동일하게 사용해보았고,<br>
+                                                UI/UX사용성에 맞는 디자인을<br>
+                                                기획해보았습니다.</p>
+                                                <!--브런치나우
+                                                메뉴호버--><!--디자인설명페이지-->
+                                                <div class="moreBtn wow shake moreBtn4">
+                                                <a href="#">more <img src="images/pluspink11px.png" alt="plus" >
+                                                <img src="images/pluspink11pxhover.png" alt="plushover" class="plusHover">
+                                                </a>
+                                                </div>
+                                           </div>
+                                </li>
+                            </ul>
+                          </div>
+                         <!--포트폴리오설명박스4--> 
+                 
+       <!--컨테이너:portfolio끝-->
+
+       <!--컨테이너:etc시작-->
+     
+                 <div class="section4 etc">
+                      <img src="images/2.png" alt="background8" class="background8 wow fadeInLeft">
+                      <img src="images/6.png" alt="background9" class="background9 wow fadeInLeft">
+                      <div class="eCons inner">
+                               <!--공통타이틀박스-->
+                               <div class="ConsTitle">
+                                   <p><span>o</span>ther's
+                                    <span class="pinkTitleText3">
+                                    </span>
+                                    </p>  
+                                   <span class="consSubTitle">: publishing, banner design, 명함디자인</span>
+                                </div>
+                               <!--공통타이틀박스-->
+                               <!--etc연결박스-->
+                             <ul class="etcCon1">
+                                <li class="etc1">
+                                    <a href="#">
+                                        <img src="images/hansol.png" alt="hansol">
+                                    </a>
+                                </li>
+                                 <li class="etc2">
+                                     <a href="#">
+                                         <img src="images/samsung.png" alt="hansol">
+                                     </a>
+                                 </li>
+                                 <li class="etc3">
+                                     <a href="#">
+                                         <img src="images/holly.png" alt="hansol">
+                                     </a>
+                                 </li>
+                                 <li class="etc4">
+                                     <a href="#">
+                                         <img src="images/caffebene.png" alt="hansol">
+                                     </a>
+                                 </li>
+                                 <li class="etc5">
+                                     <a href="#">
+                                         <img src="images/wodam.png" alt="hansol">
+                                     </a>
+                                 </li>
+                                 <li class="etc6">
+                                     <a href="#">
+                                         <img src="images/hansol.png" alt="hansol">
+                                     </a>
+                                 </li>
+                              </ul>  
+                               <!--etc연결박스-->
+                      </div>
+                      <!--효과:박스이미지호버이미지확대-->
+                 </div>
+       <!--컨테이너:etc끝-->
+       <!--컨테이너:contact시작-->
+                
+           
+                 <div class="section contact">
+                      <div class="contCons inner">
+                       <!--공통타이틀박스-->
+                               <div class="ConsTitle">
+                                    <p><span>J</span>oin
+                                        <span class="pinkTitleText4">
+                                        </span>
+                                    </p>
+                                    <p class="consSubTitles">: I want to join your company</p>
+                              </div>
+                              
+                              <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbzAYZzCthhRzmsWhbL2pEaeMUcizlK3HernDdBucQ/exec">
+                                <!-- change the form action to your script url -->
+
+                                <div class="form-elements">
+                                  <fieldset class="pure-group">
+                                    <label for="name">Name</label>
+                                    <input id="name" name="name" placeholder="writes your name" />
+                                  </fieldset>
+
+                                  <fieldset class="pure-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="10"
+                                    placeholder="text"></textarea>
+                                  </fieldset>
+
+                                  <fieldset class="pure-group">
+                                    <label for="email">Email Address</label>
+                                    <input id="email" name="email" type="email" value=""
+                                    required placeholder="writes your email address:ID@email.com"/>
+                                  </fieldset>
+
+                                  <!--<fieldset class="pure-group">
+                                    <label for="color">Favourite Color: </label>
+                                    <input id="color" name="color" placeholder="green" />
+                                  </fieldset>
+                                  -->
+
+                                  <!--<fieldset class="pure-group honeypot-field">
+                                    <label for="honeypot"></label>
+                                    <input id="honeypot" type="text" name="honeypot" value="" />
+                                  </fieldset>
+                                  -->
+
+                                  <button class="button-success pure-button button-xlarge">
+                                      <i class="fa fa-paper-plane"></i><a>Send</a></button>
+                                </div>
+
+                                <!-- Customise the Thankyou Message People See when they submit the form: -->
+                                <div class="thankyou_message" style="display:none;">
+                                  <h2><em>Thanks</em></h2>
+                                </div>
+
+                              </form>
+                       <!--공통타이틀박스-->
+                           <!-- <div class="sendBtn"><a href="#">send</a></div> -->
+                     </div>
+               </div>
+       <!--컨테이너:contact끝-->
+      <!--컨테이너끝-->
+       <!--푸터시작-->
+    <script src="https://emiho4870.github.io/portfolio/form-submission-handler.js"></script>
+             
+            <div class="fInfo section5">
+                      <img src="images/2.png" alt="background8" class="background8 wow bounceInRight">
+                      <img src="images/2.png" alt="background9" class="background9 wow bounceInLeft">
+               <img src="images/footerlogo.png" alt="footerlogo" class="footerLogo wow bounceInLeft">
+               <div class="fInfoText">
+               <p><a href="#"><img src="images/tel.png" alt="tel"> <span>+82 10 3946 2428</span></a></p>
+               <p><a href="#"><img src="images/mail.png" alt="mail"> <span>heojaehwa25@gmail.com</span></a></p>
+               <!--
+               <p>
+                   <a href="원하는_주소" download>
+                   <img src="images/downresume.png" alt="downresume">
+                   <span>download resume</span>
+                   </a>
+               </p>
+               -->
+             </div>
+              <div class="fInfoTextLocation">
+               <p class="copyright">BUSAN.SOUTH KOREA</p>
+               <p class="copyright">Copyright@2019. heojaehwa. all rights reserved</p>
+               </div>
+               </div>
+      <!--푸터끝-->
+      <!--효과:전체요소wow효과-->
+      <!--전체끝-->
+        </div>
+</div>
+    </body>
+</html>
