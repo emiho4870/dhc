@@ -127,7 +127,6 @@ animation: spin 2s linear infinite;
 /*컨테이너:home시작*/
 .home{
     position:relative;
-    height:830px;
 }
 .background2{
     position: absolute;
@@ -390,7 +389,7 @@ animation: spin 2s linear infinite;
     margin-left:100px;
 }
 .ConsSub_2{
-    margin-left: 290px;
+    margin-left:300px;
 }
 .ConsSub li{
     float:left;
@@ -566,7 +565,7 @@ animation: spin 2s linear infinite;
 /*컨테이너:etc끝*/
 /*컨테이너:contact시작*/
 .contact{
-    padding:100px;
+    /*padding:100px;*/
 }
 .contCons{
     text-align: center;
@@ -600,8 +599,8 @@ animation: spin 2s linear infinite;
 }
 .fInfoText{
     position:absolute;
-    right:43%;
-    top:40%;
+    right:52%;
+    top:60%;
 }
 .fInfoText span{
     opacity:0;
