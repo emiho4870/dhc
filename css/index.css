@@ -387,7 +387,6 @@ animation: spin 2s linear infinite;
     margin:200px 0;
     margin:0 auto;
     padding:50px;
-    margin-left:100px;
 }
 .ConsSub_2{
     /*margin-left:300px;*/
@@ -600,7 +599,7 @@ animation: spin 2s linear infinite;
 }
 .fInfoText{
     position:absolute;
-    right:36%;
+    right:35%;
     top:50%;
 }
 .fInfoText span{
@@ -640,8 +639,7 @@ animation: spin 2s linear infinite;
 .fInfoTextLocation{
     position: absolute;
     top:40%;
-    left:42%;
-    margin-left:2%;
+    left:45%;
 }
 .fInfoTextLocation p{
     font-weight:700;
