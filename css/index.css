@@ -599,7 +599,7 @@ animation: spin 2s linear infinite;
 }
 .fInfoText{
     position:absolute;
-    right:30%;
+    right:33%;
     top:50%;
 }
 .fInfoText span{
@@ -639,7 +639,7 @@ animation: spin 2s linear infinite;
 .fInfoTextLocation{
     position: absolute;
     top:40%;
-    left:50%;
+    left:47%;
 }
 .fInfoTextLocation p{
     font-weight:700;
