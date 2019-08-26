@@ -9,6 +9,7 @@ body,p{
     padding:0;
     width:100%;
     max-width:1920px;
+    overflow-x: hidden;
 }
 ul{
     margin:0;
