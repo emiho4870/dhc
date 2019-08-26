@@ -91,12 +91,15 @@ animation: spin 2s linear infinite;
 #fullpage{
     position: relative;
 }
+#header{
+    position: relative;
+}
 .gnb{
     position:absolute;
     /*position:fixed;*/
     right:0;
     margin-right:250px;
-    top:-5%;
+    top:80px;
 }
 .gnb button{
     margin-right:60px;
@@ -600,7 +603,7 @@ animation: spin 2s linear infinite;
 }
 .fInfoText{
     position:absolute;
-    right:30%;
+    right:39%;
     top:50%;
 }
 .fInfoText span{
@@ -640,7 +643,7 @@ animation: spin 2s linear infinite;
 .fInfoTextLocation{
     position: absolute;
     top:40%;
-    left:50%;
+    left:43%;
 }
 .fInfoTextLocation p{
     font-weight:700;
