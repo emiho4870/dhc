@@ -8,6 +8,7 @@ body,p{
     margin:0;
     padding:0;
     width:100%;
+    /*max-width:1920px;*/
 }
 ul{
     margin:0;
@@ -184,7 +185,7 @@ animation: spin 2s linear infinite;
 .background4{
     position: absolute;
     top:70%;
-    right:0;
+    right:100px;
 }
 /*컨테이너공용타이틀요소p*/
 .ConsTitle{
@@ -373,7 +374,7 @@ animation: spin 2s linear infinite;
 }
 .background6{
     position: absolute;
-    right:0;
+    right:100px;
     top:50%;
 }
 .background7{
@@ -456,7 +457,7 @@ animation: spin 2s linear infinite;
 .background9{
     position: absolute;
     top:30%;
-    left:50%;
+    left:40%;
 }
 .ConsTitle p{
     display:inline-block;
