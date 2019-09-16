@@ -306,7 +306,7 @@ animation: spin 2s linear infinite;
     text-align: center;
     line-height:23px;
     height:30px;
-    margin-top:80px;
+    margin-top:95px;
     position: relative;
 }
 .moreBtn1{
@@ -314,7 +314,7 @@ animation: spin 2s linear infinite;
     
 }
 .moreBtn2{
-    margin-top:90px;
+    margin-top:30px;
     
 }
 .moreBtn3{
@@ -322,7 +322,7 @@ animation: spin 2s linear infinite;
     
 }
 .moreBtn4{
-    margin-top:155px;
+    margin-top:105px;
     
 }
 .moreBtnMobile{
